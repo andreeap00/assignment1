@@ -1,5 +1,5 @@
 :root {
-    --paddi: 10%;
+    --spacing: 10%;
 }
 
 header {
@@ -17,12 +17,17 @@ header {
     width: 100%;
 }
 
+.site-main{
+    display: flex;
+    width: 100%;
+}
+
 .menu-item {
     width: 50%;
 }
 
 .menu-item:first-child {
-    padding-left: var(--paddi);
+    padding-left: var(--spacing);
 }
 
 .menu-item a img {
@@ -34,7 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-left: 30%;
-    margin-right: var(--paddi);
+    margin-right: var(--spacing);
     align-items:center;
 }
 
@@ -81,7 +86,7 @@ header {
 }
 
 .subnav-bar {
-    padding: 0 0 0 var(--paddi);
+    padding: 0 0 0 var(--spacing);
     width: 25%;
     display: flex;
     justify-content: space-between;
@@ -89,7 +94,7 @@ header {
 }
 
 .price-filter {
-    padding: 0 var(--paddi);
+    padding: 0 var(--spacing);
     display: flex;
 }
 
@@ -99,7 +104,7 @@ header {
 
 #menu {
     width: 100%;
-    padding: 0px var(--paddi);
+    padding: 0px var(--spacing);
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
