@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hunter</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script rel="javascript" src="./assets/js/index.js"></script>
+    <link href="./assets/css/nouislider.css" rel="stylesheet">
+    <script src="./assets/js/nouislider.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-menu">
+            <div class="menu-item">
+                <a href="index.html">
+                    <img src="./assets/images/foodielogo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="main-pages menu-item">
+                <a href="#">Home</a>
+                <span class="small-circle"></span>
+
+                <a href="#">About</a>
+                <span class="small-circle"></span>
+
+                <a href="#">Services</a>
+                <span class="small-circle"></span>
+
+                <a href="#">Blog</a>
+                <span class="small-circle"></span>
+
+                <a href="#">Contacts</a>
+            </div>
+        </div>
+        <div class="description">
+            <h1 class="title-text">Foodie Hunter</h1>
+            <hr class="title-line" />
+            <p class="heading-text">Good food is the foundation of genuine happiness.</p>
+        </div>
+    </header>
+
+    <!-- Main Site -->
+    <main id="site-main">
+        <div class="bar">
+            <div class="subnav-bar">
+                <div class="subnav-menu">
+                    Category
+                    <i class="fa-solid fa-angles-right icon"></i>
+                    <div class="subnav-content">
+                        <p> Entrees</p>
+                        <p> Salads</p>
+                        <p> Second Course</p>
+                    </div>
+                </div>
+                <div class="subnav-menu">
+                    Sorting
+                    <i class="fa-solid fa-angles-right icon"></i>
+                    <div class="subnav-content">
+                        <p> Alphabetical</p>
+                        <p> Price Ascending</p>
+                        <p> Price Descending</p>
+                    </div>
+                </div>
+                <div>
+                    Vegetarian
+                    <i class="fa-solid fa-angles-right icon"></i>
+                </div>
+            </div>
+
+            <div class="price-filter subnav-bar">
+                <p> Price: </p>
+                <p id="min-slider"></p>
+                <div id="uislider"></div>
+                <p id="max-slider"></p>
+            </div>
+        </div>
+
+        <ul id="menu">
+            <li>
+                <div class="dish-img">
+                    <img src="./assets/images/spaghetti-carbonara.png" alt="Dish image">
+                </div>
+                <div>
+                    <h1>Pasta Carbonara</h1>
+                    <p class="dish-category">Second Course</p>
+                    <p class="dish-price">Price:$16.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="dish-img">
+                    <img src="./assets/images/chicken-soup.png" alt="Dish image">
+                </div>
+                <div>
+                    <h1>Chicken Soup</h1>
+                    <p class="dish-category">Entrees</p>
+                    <p class="dish-price">Price:$17.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="dish-img">
+                    <img src="./assets/images/vitamin-salad.png" alt="Dish image">
+                </div>
+                <div>
+                    <h1>Vitamin Salad</h1>
+                    <p class="dish-category">Salads</p>
+                    <p class="dish-price">Price:$16.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="dish-img">
+                    <img src="./assets/images/bolognese.png" alt="Dish image">
+                </div>
+                <div>
+                    <h1>Spaghetti Bolognese</h1>
+                    <p class="dish-category">Second Course</p>
+                    <p class="dish-price">Price:$16.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="dish-img">
+                    <img src="./assets/images/mushroom-soup.png" alt="Dish image">
+                </div>
+                <div>
+                    <h1>Mushroom Soup</h1>
+                    <p class="dish-category">Second Course</p>
+                    <p class="dish-price">Price:$21.00</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <!-- /Main Site -->
+
+    <footer>
+        <br>
+        <div class="footer">
+            <p><i>Assignment 1 - Popa Andreea-Cristiana</i></p>
+        </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>
